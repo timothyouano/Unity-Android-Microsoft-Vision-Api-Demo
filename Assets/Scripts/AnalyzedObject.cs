@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Project by: Timothy Ouano - https://github.com/timokranz/
+
 public class AnalyzedObject : MonoBehaviour {
 
     public List<ObjectCategory> categories { get; private set; }

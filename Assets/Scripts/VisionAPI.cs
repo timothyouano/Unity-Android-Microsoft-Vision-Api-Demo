@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Project by: Timothy Ouano - https://github.com/timokranz/
+
 public class VisionAPI : MonoBehaviour {
 
-    public string ApiKey = "39dd295b44d842a09a3ec5368aa3564d"; // replace with your own key
+    public string ApiKey = "YOUR VISION KEY HERE"; // replace with your own key
+    // Emotion URL can be /tag or /analyze depending on what you need the vision service to be - View Microsoft Documentation for more details
     public string emotionURL = "https://westcentralus.api.cognitive.microsoft.com/vision/v1.0/tag";
 
     public List<AnalyzedObject> imageCategories = new List<AnalyzedObject>();
