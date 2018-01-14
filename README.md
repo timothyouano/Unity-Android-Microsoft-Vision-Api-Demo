@@ -1,7 +1,8 @@
 # Unity-Android-Microsoft-Vision-Api-Demo
 A sample for integrating Microsoft Cognitive Services - Vision Api to Unity Android devices this project is strictly for android devices only but if you want to integrate it to desktop you can message me on how to integrate it on desktop. This was integrated in our project ANI - An E-Learning for kids, the project is not yet done I'll update this as soon it is published
 
-License:
+License
+
 You are free to modify the project to your will. Either using it for commercial or personal use as long as I have my name on it.
 
 Instructions:
