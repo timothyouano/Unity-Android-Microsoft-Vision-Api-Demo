@@ -1,11 +1,14 @@
 # Unity-Android-Microsoft-Vision-Api-Demo
-A sample for integrating Microsoft Cognitive Services - Vision Api to Unity Android devices this project is strictly for android devices only but if you want to integrate it to desktop you can message me on how to integrate it on desktop. This was integrated in our project ANI - An E-Learning for kids, the project is not yet done I'll update this as soon it is published
+A sample for integrating Microsoft Cognitive Services - Vision Api to Unity Android devices this project is strictly for android devices only but if you want to integrate it to desktop you can message me on how to integrate it on desktop. This was integrated in our project ANI - An E-Learning for kids.
 
-License
-
+# License
 You are free to modify the project to your will. Either using it for commercial or personal use as long as I have my name on it.
 
-Instructions:
+# Sample Scenes
+- Camera to Computer Vision
+- Image to Computer Vision
+
+# Instructions:
 1. The sample has two scripts - VisionAPI and AnalyzedObject
 VisionAPI concerns the sending of data to Microsoft Services with the details of what data to get in return.
 Replace the ApiKey with your own key, get you Vision API key here:
@@ -16,5 +19,5 @@ and the emotionURL to your desired service for the Vision API, you can find more
 
 3. Change the fileName inside VisionAPI script to your desired image to be processed, the example project uses the images in the StreamingAssets
 
-Any issues?
-Make a thread and well fix it together! Hit me up on facebook, I'll respond ASAP - https://www.facebook.com/TrashTalkTim
+# Any issues?
+Make a thread and well fix it together! Hit me up on facebook, I'll respond ASAP - [Timothy O. Ouano ](https://www.facebook.com/TrashTalkTim)
