@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class VisionAPI : MonoBehaviour {
 
-    public string ApiKey = "YOUR VISION KEY HERE"; // replace with your own key
+    public string ApiKey = "YOUR VISION API KEY HERE"; // replace with your own key
     // Emotion URL can be /tag or /analyze depending on what you need the vision service to be - View Microsoft Documentation for more details
     public string emotionURL = "https://westcentralus.api.cognitive.microsoft.com/vision/v1.0/tag";
 

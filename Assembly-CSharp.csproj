@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D5B5DEAA-B58F-C132-E711-651881CE9315}</ProjectGuid>
+    <ProjectGuid>{42795366-F984-AF9B-B797-89FCD595E517}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,12 +51,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\JSON\JSONObject.cs" />
-     <Compile Include="Assets\JSON\JSONTemplates.cs" />
-     <Compile Include="Assets\JSON\VectorTemplates.cs" />
+     <Compile Include="Assets\Samples\CameraToVision\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Samples\CameraToVision\Scripts\VisionAPItoCAM.cs" />
      <Compile Include="Assets\Scripts\AnalyzedObject.cs" />
+     <Compile Include="Assets\Scripts\JSON\JSONObject.cs" />
+     <Compile Include="Assets\Scripts\JSON\JSONTemplates.cs" />
+     <Compile Include="Assets\Scripts\JSON\VectorTemplates.cs" />
      <Compile Include="Assets\Scripts\VisionAPI.cs" />
-     <None Include="Assets\JSON\readme.txt" />
+     <None Include="Assets\Scripts\JSON\readme.txt" />
  <Reference Include="Vuforia.UnityExtensions.Editor">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
  </Reference>
